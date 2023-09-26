@@ -30,7 +30,7 @@ class _ProductItemState extends State<ProductItem> {
                         return AlertDialog(
                           title: const Text('Congratulations!'),
                           content:
-                              Text('You\ve bought 5 ${widget.product.name}!'),
+                              Text('You\'ve bought 5 ${widget.product.name}!'),
                           actions: [
                             ElevatedButton(
                                 onPressed: () {
